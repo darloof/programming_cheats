@@ -3,8 +3,8 @@ import random
 from os import system
 import time
 
-W = 30
-H = 30
+W = 40
+H = 40
 REFRESH_RATE = 1
 world = [[False for j in range(W)] for i in range(H)]
 
