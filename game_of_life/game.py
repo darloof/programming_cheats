@@ -45,6 +45,7 @@ if __name__ == "__main__":
         for j in range(W):
             if (random.random() <= 0.1):
                 world[i][j] = True
+    system('clear')
     draw()
     while (True):
         time.sleep(REFRESH_RATE)

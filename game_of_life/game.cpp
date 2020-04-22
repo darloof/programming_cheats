@@ -90,6 +90,7 @@ int main(){
     ////
     // return draw(), 0;
     //draw();
+    system("clear");
     while(1) {
         usleep(500000);
         evolution();
